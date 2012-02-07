@@ -3,8 +3,7 @@
 require_once(dirname(__FILE__) . '/libs/facebook.php');
 
 // Instantiate the Facebook API (you have to enter the ID and secret of your Facebook app)
-$facebook = new Facebook(array('appId'  => '', 
-							   'secret' => ''));
+$facebook = new Facebook(array('appId'  => '', 'secret' => ''));
 
 // Array with graph objects to fetch likes for
 $agencies =	array(array('name' => 'Wunderknaben',    'graphid' => '107141168074',    'likes' => 0),
