@@ -6,9 +6,9 @@ require_once(dirname(__FILE__) . '/libs/facebook.php');
 $facebook = new Facebook(array('appId'  => '', 'secret' => ''));
 
 // Array with graph objects to fetch likes for
-$agencies =	array(array('name' => 'Wunderknaben',    'graphid' => '107141168074',    'likes' => 0),
-				  array('name' => 'Euro RSCG',       'graphid' => '190979474306570', 'likes' => 0),
-				  array('name' => 'BBDO DigitalLab', 'graphid' => '196019797144492', 'likes' => 0));
+$agencies =	array(array('name' => 'Nike',   'graphid' => '15087023444',     'likes' => 0),
+                  array('name' => 'Reebok', 'graphid' => '20788456835',     'likes' => 0),
+                  array('name' => 'Adidas', 'graphid' => '182162001806727', 'likes' => 0));
 
 // Get the likes for each entry within the array of objects
 foreach ($agencies as $key => $agency)
